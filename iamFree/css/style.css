@@ -1,0 +1,122 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("content.css");
+@import url("extraclass.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+/* --------- Reset css --------- */
+* {
+  margin : 0;
+  padding : 0;
+}
+
+/* --------- Layout --------- */
+html, body {	
+  margin : 0;
+	background-color : #fff;
+	padding : 0;
+	color : #000;	
+	font-family : Arial, Verdana, sans-serif;
+	font-size : .9em;
+}
+#xo-canvas {
+  width : 950px;
+  margin : 0 auto;
+}
+#xo-canvas-content {}
+#xo-page {padding-top : 5px;}
+
+/* --------- Header --------- */
+#xo-header {
+  height : 42px;
+  background-color : #fff;  
+}
+/* --- Logo --- */
+#xo-header img.logo {
+  width : 130px;
+  height : 42px;
+  margin-left : 5px;
+}   
+/* --- Search --- */
+#xo-header .search {
+  position : relative;
+  float : right;
+  top : 10px;
+  right : 10px;  
+}
+
+/* --------- Navigation menu --------- */
+ul#xo-globalnav {   
+  height : 34px;
+  background : url("../img/globalnav.gif") repeat-x;
+  font-weight : bold;
+  border : 1px solid #999;
+}
+ul#xo-globalnav li {
+  display : inline;  
+  line-height : 34px;  
+  list-style : none;  
+}
+ul#xo-globalnav a {
+  padding : 9px 9px 9px 7px;
+  color : #0033CC;  
+  text-decoration : none;
+  font-size : 1.1em;
+  border-right : 1px solid #999;
+}
+ul#xo-globalnav a:hover {text-decoration : underline;}
+ul#xo-globalnav a:active, ul#xo-globalnav a:focus,
+ul#xo-globalnav a.xo-current  {text-decoration : underline;}
+
+/* --------- Breadcrumb --------- */
+#xo-breadcrumb {
+  margin : 0 5px 0 5px;
+  padding : 3px 3px 3px 5px;
+  font-size : .8em;
+}
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;  
+}
+
+/* --------- Footer --------- */
+#xo-footer {
+  margin-bottom : 8px;
+  background-color : #eee;
+  padding : 6px 0 5px 0;
+  text-align : center;
+  font-size : .9em;
+  border-top : 1px solid #ccc;
+  border-bottom : 1px solid #ccc;
+}
+#xo-logger-output{font-size : .9em;}
+
+/* --------- Block main menu --------- */
+#mainmenu {font-size : .9em;}
+#mainmenu a {
+  display : block;
+  margin : 0;
+  padding : 4px;
+}
+#mainmenu a:hover {}
+#mainmenu a.menuTop {padding-left : 3px;}
+#mainmenu a.menuMain {padding-left : 3px;}
+#mainmenu a.menuSub {
+  padding-left : 12px;
+  font-size : .9em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {font-size : .9em;}
+#usermenu a {
+  display : block;
+  margin : 0; 
+  padding : 3px;
+}
+#usermenu a:hover {}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color : #fcc;}

@@ -1,0 +1,67 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn {
+  padding-top : 10px;
+  width : 240px;
+}
+#xo-canvas-leftcolumn .xo-block1 {
+  margin-bottom : 10px;
+  background-color : #E6EFFF;
+  border : 1px solid #AEAED5;
+}
+#xo-canvas-leftcolumn .xo-block2 {
+  margin-bottom : 10px;
+  background-color : #FFFFDB;
+  border : 1px solid #F5E082;
+}
+#xo-canvas-leftcolumn .xo-block3 {
+  margin-bottom : 10px;
+  background-color : #FFF3F3;
+  border : 1px solid #FFAEAE;
+}
+#xo-canvas-leftcolumn h3.xo-blocktitle1, #xo-canvas-leftcolumn h3.xo-blocktitle2,
+#xo-canvas-leftcolumn h3.xo-blocktitle3 {
+  margin : 0 0 2px 0;
+  padding : 3px 3px 3px 6px;
+  font-size : 1.1em;
+  font-weight : bold;  
+}
+#xo-canvas-leftcolumn h3.xo-blocktitle1 {color : #0033CC;}
+#xo-canvas-leftcolumn h3.xo-blocktitle2 {color : #CC6600;}
+#xo-canvas-leftcolumn h3.xo-blocktitle3 {color : #CD2525;}
+#xo-canvas-leftcolumn .xo-blockcontent {  
+  padding : 3px 8px 5px 8px;
+  line-height : 1.2em;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {margin : 5px;}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin : 0 5px 0 5px;
+  padding-left : 3px;
+  color : #000;
+  font-size : 1.1em;
+  font-weight : bold;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.5em;
+  text-align : justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin : 0 5px 0 5px;
+  padding-left : 3px;
+  color : #000;
+  font-size : 1.1em;
+  font-weight : bold;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.5em;
+  text-align : justify;
+}
